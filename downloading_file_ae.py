@@ -22,7 +22,7 @@ end_date=datetime.strftime(datetime.now(),'%d.%m.%Y')
 
 def ae_conversion(waitTime):
     Initial_path = 'C:\\Users\\R&D\\Downloads\\'
-    final_path='D:\\Monitoring Raw Data\\04.08.2017-AE Conversion\\daily_downloads\\'
+    final_path='D:\\folder\\folder\\daily_downloads\\'
     driver = webdriver.Chrome(executable_path=r'C:\Python\Python37\Lib\chromedriver.exe')
     driver.set_page_load_timeout(5)
     driver.get(ae_URL)
